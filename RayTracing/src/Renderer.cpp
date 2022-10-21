@@ -125,7 +125,7 @@ glm::vec4 Renderer::TraceRay(const Ray& ray)
 
 
 
-	return glm::vec4(m_Color * d, 1.0f);
+	return glm::vec4( normal * d, 1.0f);
 
 
 }
